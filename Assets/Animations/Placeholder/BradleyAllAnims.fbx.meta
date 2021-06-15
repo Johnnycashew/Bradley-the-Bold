@@ -1,0 +1,925 @@
+fileFormatVersion: 2
+guid: 12d10beab3ea52f489e9b3bc7cefa1a4
+ModelImporter:
+  serializedVersion: 19301
+  internalIDToNameTable:
+  - first:
+      74: 6121895296435977923
+    second: Default
+  - first:
+      74: 4871567749596786114
+    second: sneak
+  - first:
+      74: 72886586252446707
+    second: sneakIdle
+  - first:
+      74: -3100369314251171874
+    second: Idle
+  - first:
+      74: 2667949614841947897
+    second: Walk
+  - first:
+      74: 8562940587878419323
+    second: StandCrouch
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'sneak' has import animation warnings that might
+      lower retargeting quality:\nNote: Activate translation DOF on avatar to improve
+      retargeting quality.\n\t'mixamorig:Bradley 4' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'mixamorig:Bradley 7'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n\t'mixamorig:Bradley
+      23' is inbetween humanoid transforms and has rotation animation that will be
+      discarded.\n\nClip 'sneakIdle' has import animation warnings that might lower
+      retargeting quality:\nNote: Activate translation DOF on avatar to improve retargeting
+      quality.\n\t'mixamorig:Bradley 4' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'mixamorig:Bradley 7' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'mixamorig:Bradley
+      23' is inbetween humanoid transforms and has rotation animation that will be
+      discarded.\n\nClip 'Idle' has import animation warnings that might lower retargeting
+      quality:\nNote: Activate translation DOF on avatar to improve retargeting quality.\n\t'mixamorig:Bradley
+      4' is inbetween humanoid transforms and has rotation animation that will be
+      discarded.\n\t'mixamorig:Bradley 7' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'mixamorig:Bradley 23' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'Walk' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'mixamorig:Bradley
+      4' is inbetween humanoid transforms and has rotation animation that will be
+      discarded.\n\t'mixamorig:Bradley 7' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'mixamorig:Bradley 23' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\nClip
+      'StandCrouch' has import animation warnings that might lower retargeting quality:\nNote:
+      Activate translation DOF on avatar to improve retargeting quality.\n\t'mixamorig:Bradley
+      4' is inbetween humanoid transforms and has rotation animation that will be
+      discarded.\n\t'mixamorig:Bradley 7' is inbetween humanoid transforms and has
+      rotation animation that will be discarded.\n\t'mixamorig:Bradley 23' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: sneak
+      takeName: sneak
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 68
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: sneakIdle
+      takeName: sneakIdle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 41
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Idle
+      takeName: Idle
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 59
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Walk
+      takeName: Walk
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: StandCrouch
+      takeName: StandCrouch
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 30
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 3.1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: mixamorig:Bradley
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 55
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 60
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 56
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 61
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 57
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 62
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 8
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 31
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 9
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 32
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 10
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 33
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 24
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 34
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 58
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 63
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 39
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 40
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 41
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 35
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 36
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 37
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 43
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 44
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 45
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 47
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 48
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 49
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 51
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 52
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 53
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 3
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: mixamorig:Bradley 5
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: BradleyAllAnims(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: default
+      parentName: BradleyAllAnims(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh
+      parentName: BradleyAllAnims(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley
+      parentName: BradleyAllAnims(Clone)
+      position: {x: -0.02189222, y: 0.58558553, z: -0.011275583}
+      rotation: {x: -0.004741951, y: 0.4870644, z: -0.036905363, w: 0.8725731}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 1
+      parentName: mixamorig:Bradley
+      position: {x: -0, y: 0.06807656, z: 0.006457835}
+      rotation: {x: 0.14438191, y: -0.0021864076, z: 0.023846887, w: 0.98923224}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 2
+      parentName: mixamorig:Bradley 1
+      position: {x: -0, y: 0.07977914, z: -3.4825728e-10}
+      rotation: {x: 0.07343995, y: 0.00078181294, z: 0.048777197, w: 0.9961058}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 3
+      parentName: mixamorig:Bradley 2
+      position: {x: -0, y: 0.09117617, z: -2.4189414e-10}
+      rotation: {x: 0.07363499, y: 0.00077022286, z: 0.04877347, w: 0.9960916}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 4
+      parentName: mixamorig:Bradley 3
+      position: {x: -0, y: 0.10257314, z: -0.0000000064231456}
+      rotation: {x: -0.20424779, y: -0.23374964, z: -0.049413387, w: 0.94931674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 5
+      parentName: mixamorig:Bradley 4
+      position: {x: -0.003, y: 0.032, z: 0.002}
+      rotation: {x: -0.008670312, y: -0.22024797, z: 0.027874563, w: 0.975007}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 6
+      parentName: mixamorig:Bradley 5
+      position: {x: -0, y: 0.41463205, z: 0.070851445}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 7
+      parentName: mixamorig:Bradley 3
+      position: {x: -0.05394068, y: 0.089609206, z: 0.000783306}
+      rotation: {x: 0.5983563, y: -0.34773225, z: 0.5192581, w: 0.50142103}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 8
+      parentName: mixamorig:Bradley 7
+      position: {x: 4.704128e-11, y: 0.11100372, z: -5.881327e-11}
+      rotation: {x: 0.2606355, y: 0.21351454, z: -0.06570147, w: 0.93923587}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 9
+      parentName: mixamorig:Bradley 8
+      position: {x: -7.243127e-11, y: 0.16336958, z: -7.5488565e-10}
+      rotation: {x: -0.04793118, y: -0.032099765, z: -0.332954, w: 0.9411769}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 10
+      parentName: mixamorig:Bradley 9
+      position: {x: 1.3175311e-10, y: 0.19645119, z: 2.0461245e-10}
+      rotation: {x: -0.13537297, y: -0.04412721, z: -0.034517054, w: 0.9892096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 11
+      parentName: mixamorig:Bradley 10
+      position: {x: 0.032720912, y: 0.035894874, z: -0.000078497615}
+      rotation: {x: -0.02560128, y: -0.052072063, z: -0.2651719, w: 0.96245366}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 12
+      parentName: mixamorig:Bradley 11
+      position: {x: 0.007887813, y: 0.03804745, z: -1.1823724e-10}
+      rotation: {x: 0.083677314, y: 0.054823987, z: 0.07073101, w: 0.99246645}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 13
+      parentName: mixamorig:Bradley 12
+      position: {x: -0.00019524225, y: 0.030571084, z: 6.262913e-10}
+      rotation: {x: 0.07308218, y: 0.009104023, z: -0.09378661, w: 0.99286467}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 14
+      parentName: mixamorig:Bradley 13
+      position: {x: -0.007692574, y: 0.021702167, z: 2.9994981e-10}
+      rotation: {x: 0.000000030923754, y: -0.00000003374843, z: 0.000000035265757,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 15
+      parentName: mixamorig:Bradley 10
+      position: {x: 0.042399798, y: 0.12139959, z: -0.005904347}
+      rotation: {x: 0.1190172, y: -0.105655976, z: -0.00042811575, w: 0.98725456}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 16
+      parentName: mixamorig:Bradley 15
+      position: {x: -0.000062289684, y: 0.026590252, z: 5.5941963e-11}
+      rotation: {x: 0.2923302, y: 0.006122235, z: 0.05145412, w: 0.9549126}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 17
+      parentName: mixamorig:Bradley 16
+      position: {x: 0.00002540081, y: 0.02604699, z: -4.845031e-10}
+      rotation: {x: 0.28777725, y: 0.010404664, z: 0.062921084, w: 0.95557153}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 18
+      parentName: mixamorig:Bradley 17
+      position: {x: 0.00003688865, y: 0.020830221, z: -2.4117255e-10}
+      rotation: {x: -0.000000025379173, y: -0.000000035227497, z: -0.000000049307634,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 19
+      parentName: mixamorig:Bradley 10
+      position: {x: 0.01149572, y: 0.12102218, z: -0.0029362158}
+      rotation: {x: 0.092125475, y: -0.07681217, z: -0.022477068, w: 0.9925259}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 20
+      parentName: mixamorig:Bradley 19
+      position: {x: 0.000017332739, y: 0.029484274, z: 0.0000000015199146}
+      rotation: {x: 0.37447828, y: 0.010289939, z: 0.045668468, w: 0.9260532}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 21
+      parentName: mixamorig:Bradley 20
+      position: {x: 0.00000058088256, y: 0.02910924, z: 6.051561e-11}
+      rotation: {x: 0.35345355, y: 0.02296062, z: 0.08017691, w: 0.93172693}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 22
+      parentName: mixamorig:Bradley 21
+      position: {x: -0.000017913739, y: 0.01817402, z: -7.0964234e-10}
+      rotation: {x: -1.597339e-10, y: 0.000000007857286, z: 0.000000030030527, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 23
+      parentName: mixamorig:Bradley 10
+      position: {x: -0.015101412, y: 0.12931463, z: -0.0022329339}
+      rotation: {x: 0.24956991, y: -0.04893611, z: 0.003910079, w: 0.9671116}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 24
+      parentName: mixamorig:Bradley 23
+      position: {x: 0.00010222489, y: 0.02528309, z: -0.0000000012161716}
+      rotation: {x: 0.42404366, y: 0.031136326, z: 0.047895797, w: 0.9038382}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 25
+      parentName: mixamorig:Bradley 24
+      position: {x: -0.00009459129, y: 0.025277413, z: -8.024328e-10}
+      rotation: {x: 0.3071824, y: 0.050140277, z: 0.06322073, w: 0.94822365}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 26
+      parentName: mixamorig:Bradley 25
+      position: {x: -0.000007633856, y: 0.014903953, z: 2.697711e-10}
+      rotation: {x: 0.0000000019226056, y: 0.000000024426537, z: -0.000000016725688,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 27
+      parentName: mixamorig:Bradley 10
+      position: {x: -0.03879411, y: 0.111185335, z: -0.007074916}
+      rotation: {x: 0.23588157, y: 0.06640993, z: 0.11966299, w: 0.96209687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 28
+      parentName: mixamorig:Bradley 27
+      position: {x: 0.0007792942, y: 0.0325549, z: -0.0000000010027283}
+      rotation: {x: 0.43825355, y: -0.026157424, z: 0.08923626, w: 0.89402825}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 29
+      parentName: mixamorig:Bradley 28
+      position: {x: -0.00053423713, y: 0.025770534, z: -6.540136e-10}
+      rotation: {x: 0.40743288, y: -0.03198166, z: 0.12974682, w: 0.9034054}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 30
+      parentName: mixamorig:Bradley 29
+      position: {x: -0.00024505646, y: 0.01995569, z: -9.817562e-10}
+      rotation: {x: -0.00000005145006, y: -0.00000002854141, z: -0.00000001270589,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 31
+      parentName: mixamorig:Bradley 3
+      position: {x: 0.05394068, y: 0.08969315, z: 0.0016682717}
+      rotation: {x: 0.6823876, y: 0.24541089, z: -0.5463244, w: 0.4191066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 32
+      parentName: mixamorig:Bradley 31
+      position: {x: -4.006544e-11, y: 0.11100371, z: 5.5041617e-11}
+      rotation: {x: 0.2629524, y: -0.40273872, z: -0.019970508, w: 0.8765037}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 33
+      parentName: mixamorig:Bradley 32
+      position: {x: 1.0977698e-10, y: 0.16344856, z: -1.1877645e-10}
+      rotation: {x: 0.09105566, y: 0.11703331, z: 0.60346013, w: 0.7834846}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 34
+      parentName: mixamorig:Bradley 33
+      position: {x: -1.1103614e-10, y: 0.19646047, z: -4.9260675e-11}
+      rotation: {x: -0.09355024, y: -0.20556517, z: 0.07382016, w: 0.97136086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 35
+      parentName: mixamorig:Bradley 34
+      position: {x: -0.031002093, y: 0.035653517, z: -0.0015680788}
+      rotation: {x: -0.046622865, y: 0.0645669, z: 0.28781533, w: 0.95436877}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 36
+      parentName: mixamorig:Bradley 35
+      position: {x: -0.0063659176, y: 0.037278973, z: 1.5757813e-10}
+      rotation: {x: 0.07881698, y: -0.062447153, z: -0.057176698, w: 0.993287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 37
+      parentName: mixamorig:Bradley 36
+      position: {x: -0.0013241916, y: 0.032240342, z: -0.0000000012010152}
+      rotation: {x: 0.04695225, y: 0.019990368, z: -0.06489922, w: 0.99658614}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 38
+      parentName: mixamorig:Bradley 37
+      position: {x: 0.00769011, y: 0.02354689, z: 2.4367944e-10}
+      rotation: {x: -0.000000009828551, y: 6.8199275e-26, z: 6.938894e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 39
+      parentName: mixamorig:Bradley 34
+      position: {x: -0.04224953, y: 0.12747452, z: -0.0046668476}
+      rotation: {x: 0.15153933, y: 0.18387115, z: 0.10144614, w: 0.96588606}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 40
+      parentName: mixamorig:Bradley 39
+      position: {x: 0.0004049229, y: 0.02700728, z: -4.2899e-11}
+      rotation: {x: 0.19090363, y: -0.009471562, z: -0.020110665, w: 0.9813571}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 41
+      parentName: mixamorig:Bradley 40
+      position: {x: -0.00012814204, y: 0.02393507, z: -2.1054779e-10}
+      rotation: {x: 0.32066932, y: -0.014336925, z: -0.038909078, w: 0.9462831}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 42
+      parentName: mixamorig:Bradley 41
+      position: {x: -0.00027678075, y: 0.020905556, z: 0.0000000010440067}
+      rotation: {x: -0.00000003243852, y: 0.00000000480372, z: -0.00000004885627,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 43
+      parentName: mixamorig:Bradley 34
+      position: {x: -0.014187469, y: 0.123601854, z: -0.006789757}
+      rotation: {x: 0.15348312, y: 0.045604017, z: 0.046646923, w: 0.9859956}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 44
+      parentName: mixamorig:Bradley 43
+      position: {x: 0.00007361666, y: 0.028962497, z: 0.0000000022336952}
+      rotation: {x: 0.2653022, y: -0.006516447, z: -0.03505996, w: 0.9635056}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 45
+      parentName: mixamorig:Bradley 44
+      position: {x: -0.000091789705, y: 0.02869342, z: 0.0000000013317867}
+      rotation: {x: 0.24411277, y: -0.0036021732, z: -0.053642813, w: 0.96825534}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 46
+      parentName: mixamorig:Bradley 45
+      position: {x: 0.000018172981, y: 0.01870593, z: 7.885783e-10}
+      rotation: {x: 0.0000000045434767, y: -0.000000044658698, z: 0.00000006559388,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 47
+      parentName: mixamorig:Bradley 34
+      position: {x: 0.0141381305, y: 0.12231223, z: -0.003735344}
+      rotation: {x: 0.20764011, y: -0.07711491, z: -0.033336364, w: 0.97459096}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 48
+      parentName: mixamorig:Bradley 47
+      position: {x: -0.0000792876, y: 0.030283624, z: -2.7747982e-10}
+      rotation: {x: 0.33218795, y: -0.012910411, z: -0.032448094, w: 0.9425665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 49
+      parentName: mixamorig:Bradley 48
+      position: {x: 0.000026519836, y: 0.026492143, z: 8.748726e-10}
+      rotation: {x: 0.3688858, y: -0.027599603, z: -0.045377653, w: 0.9279561}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 50
+      parentName: mixamorig:Bradley 49
+      position: {x: 0.00005276773, y: 0.021598933, z: -0.0000000010743761}
+      rotation: {x: 0.00000006796852, y: -0.000000022735328, z: 0.000000026468879,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 51
+      parentName: mixamorig:Bradley 34
+      position: {x: 0.042298865, y: 0.112662986, z: -0.006546611}
+      rotation: {x: 0.22371492, y: -0.20407665, z: -0.1238797, w: 0.9449647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 52
+      parentName: mixamorig:Bradley 51
+      position: {x: -0.00019115456, y: 0.031110948, z: -3.6195313e-10}
+      rotation: {x: 0.36003786, y: -0.0000028478016, z: -0.050538883, w: 0.9315678}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 53
+      parentName: mixamorig:Bradley 52
+      position: {x: 0.00010329604, y: 0.027022824, z: 2.8957917e-10}
+      rotation: {x: 0.38075128, y: -0.0022712473, z: -0.06835125, w: 0.92214507}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 54
+      parentName: mixamorig:Bradley 53
+      position: {x: 0.00008785862, y: 0.022324076, z: 0.0000000014549252}
+      rotation: {x: 0.000000002297878, y: 0.000000005144761, z: -0.000000029905426,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 55
+      parentName: mixamorig:Bradley
+      position: {x: -0.08283054, y: -0.037806436, z: 0.021535108}
+      rotation: {x: -0.14655137, y: 0.2936659, z: 0.9233617, w: 0.19921388}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 56
+      parentName: mixamorig:Bradley 55
+      position: {x: 8.286407e-10, y: 0.23113526, z: 1.6394977e-11}
+      rotation: {x: -0.44280607, y: -0.037818823, z: 0.12741199, w: 0.8867123}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 57
+      parentName: mixamorig:Bradley 56
+      position: {x: 1.9323453e-10, y: 0.228109, z: 6.7237493e-10}
+      rotation: {x: 0.6036571, y: -0.022486728, z: 0.055675298, w: 0.7949797}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 58
+      parentName: mixamorig:Bradley 57
+      position: {x: -9.490433e-11, y: 0.18097204, z: -0.0000000020757938}
+      rotation: {x: 0.27356637, y: 0.0072392463, z: -0.015691625, w: 0.9616979}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 59
+      parentName: mixamorig:Bradley 58
+      position: {x: 1.5653541e-11, y: 0.07232139, z: 1.7195703e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 60
+      parentName: mixamorig:Bradley
+      position: {x: 0.08283054, y: -0.037806436, z: 0.024005607}
+      rotation: {x: 0.120133184, y: 0.26962978, z: 0.929171, w: -0.22250625}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 61
+      parentName: mixamorig:Bradley 60
+      position: {x: -0.0000000010186662, y: 0.2316481, z: 2.9869363e-10}
+      rotation: {x: -0.48295, y: 0.047448758, z: 0.030577477, w: 0.8738266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 62
+      parentName: mixamorig:Bradley 61
+      position: {x: 2.0083357e-10, y: 0.22682737, z: -0.0000000010600858}
+      rotation: {x: 0.66938835, y: -0.010589719, z: -0.1679213, w: 0.7236087}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 63
+      parentName: mixamorig:Bradley 62
+      position: {x: 4.2675125e-10, y: 0.1814152, z: -0.00000000784242}
+      rotation: {x: 0.27290466, y: -0.00713314, z: 0.013798117, w: 0.9619157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: mixamorig:Bradley 64
+      parentName: mixamorig:Bradley 63
+      position: {x: -1.13809955e-10, y: 0.07203028, z: 3.7819615e-11}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 3.1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

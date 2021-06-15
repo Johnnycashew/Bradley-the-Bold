@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9a0317e624817840aa05aeb15ac5d24, type: 3}
+  m_Name: News1952 Piece 6
+  m_EditorClassIdentifier: 
+  type: 1
+  sprite: {fileID: -613368700261508601, guid: 1db7565f0e0c39945b0e02e30560e2fe, type: 3}
+  spawnRotation: {x: 0, y: 0, z: 0.99634975, w: -0.085364915}
+  spawnLocation: {x: -14, y: 51, z: 0}

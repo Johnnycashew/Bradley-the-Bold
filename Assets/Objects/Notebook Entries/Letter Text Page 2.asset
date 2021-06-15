@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1430741a93dc8c7438e9fda597b48e6e, type: 3}
+  m_Name: Letter Text Page 2
+  m_EditorClassIdentifier: 
+  type: 3
+  pageNumber: 2
+  text: "October 5, 1966\n\t\t Yikes, this is\n\t\t even older than\n\t\tthe last
+    thing I\n\t\t  found.\n\n\t\tWhy are there so\n\t\tmany big words?\n\n\t \tSo
+    they let him in\n\t\tto this school\nearly since he is so smart?\n\n  Wait, so
+    this was 6 years\nbefore they found out he's a\nbad guy and it says here that\nhe
+    would be in school for 4\nyears."
+  position: {x: 155, y: 5}
+  size: {x: 235, y: 290}

@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1430741a93dc8c7438e9fda597b48e6e, type: 3}
+  m_Name: News1952 Text Page 1
+  m_EditorClassIdentifier: 
+  type: 3
+  pageNumber: 1
+  text: 'This sounds bad.
+
+
+    12 years ago? I
+
+    wasn''t even born
+
+    yet!
+
+
+    So,
+    he''s like really
+
+    smart?
+
+
+    Sounds like he did
+
+    something really
+    terrible. His
+
+    own friend even told on him?
+
+
+    It was in the news, how
+    does mom not know about this?
+
+
+    What does ''Denounced'' even mean? '
+  position: {x: 155, y: 5}
+  size: {x: 235, y: 290}

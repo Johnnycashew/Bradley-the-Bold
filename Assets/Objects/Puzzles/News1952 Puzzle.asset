@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40ca9ccd72bbbfa4590d261c158102bc, type: 3}
+  m_Name: News1952 Puzzle
+  m_EditorClassIdentifier: 
+  puzzlePieces:
+  - {fileID: 11400000, guid: 2b1227a00aa58f84a8d94c8b577ae6f1, type: 2}
+  - {fileID: 11400000, guid: e356234d36b8764478c49858b633c651, type: 2}
+  - {fileID: 11400000, guid: 5dc240943a5d11c4aaa2ea97e85d30dc, type: 2}
+  - {fileID: 11400000, guid: 6299a9c2f3c98e24ba42c66df60b7f22, type: 2}
+  - {fileID: 11400000, guid: 7feda01d2504c6c48a0de77511d8476a, type: 2}
+  - {fileID: 11400000, guid: 4fa04a5e72de17e4baf3b1fe9f9b8bf3, type: 2}
+  - {fileID: 11400000, guid: 4d7d1d9027736c3488758e75c51af8bc, type: 2}
+  - {fileID: 11400000, guid: d5451572cd79a7440af3aad1e39fd7b6, type: 2}
+  pieceLocations:
+  - {x: 71, y: -126.5, z: 0}
+  - {x: -38.75, y: -118, z: 0}
+  - {x: 60, y: -64, z: 0}
+  - {x: -48.75, y: -63.9, z: 0}
+  - {x: -64, y: 54.75, z: 0}
+  - {x: 44.5, y: 65.75, z: 0}
+  - {x: 45.5, y: 126.75, z: 0}
+  - {x: -42.25, y: 135.5, z: 0}
+  acceptableDistance: 5
+  acceptableRotation: 1
+  notebookEntries:
+  - {fileID: 11400000, guid: 6dfdcb7a695200a4ebb46da867ded379, type: 2}
+  - {fileID: 11400000, guid: df8613825c6de6d4d98dd3fb017c8ad3, type: 2}
+  - {fileID: 11400000, guid: 94815af50e770474490fcc26d4ae2fbf, type: 2}
+  finishedPuzzleImage: {fileID: 21300000, guid: 81b3dae0c83110246a0c201c528db8fc,
+    type: 3}
+  puzzleResultImage: {fileID: 21300000, guid: 1098a097bfd79644c9973b34a0b8492d, type: 3}

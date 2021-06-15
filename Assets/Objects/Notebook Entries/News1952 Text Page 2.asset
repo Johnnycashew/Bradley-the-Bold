@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1430741a93dc8c7438e9fda597b48e6e, type: 3}
+  m_Name: News1952 Text Page 2
+  m_EditorClassIdentifier: 
+  type: 3
+  pageNumber: 2
+  text: "What could he do that was so\nbad that other people have to\nbe punished
+    for it too?\n\nArgh, this isn't fair! I found\nsomething that is telling me he's\nbad,
+    but it has me asking even\nmore questions!\n\nWhat do I do? I guess I'll just\nhave
+    to do more snooping and\nhope I find more.\n\nI wonder when I'll get another\nchance
+    to sneak around again,\nit better be soon, I can't stand \nDavid at all!\n\nUntil
+    next time I guess. . ._"
+  position: {x: -155, y: 5}
+  size: {x: 235, y: 290}
